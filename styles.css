@@ -1,0 +1,49 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+    line-height: 1.8;
+
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+
+    background-image: url(pexels-padrinan-19670.jpg);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+h3{
+    margin-top: 40px;
+}
+
+p, ul{
+    margin-bottom: 20px;
+}
+
+h1 + p,
+h3 + p{
+    margin-top: 5px;
+}
+
+h1 + ul,
+h2 + ul,
+h3 + ul,
+h4 + ul,
+h5 + ul,
+h6 + ul {
+    margin-top: 0;
+}
+
+.Intro {
+    font-size: 0.8em;
+}
+
+.line {
+    color: white;
+}
